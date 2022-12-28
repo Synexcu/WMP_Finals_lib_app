@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recyclerSeeBookTemplate">
+
+    <ImageView
+        android:id="@+id/bookCoverImg"
+        android:layout_width="170dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/TitleTxt"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/bookCoverImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/bookCoverImg"
+        app:layout_constraintTop_toTopOf="@+id/bookCoverImg"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/altTitleTxt"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="altTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/TitleTxt"
+        app:layout_constraintTop_toBottomOf="@+id/TitleTxt" />
+
+    <TextView
+        android:id="@+id/authorTxt"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Author"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/altTitleTxt"
+        app:layout_constraintTop_toBottomOf="@+id/altTitleTxt" />
+
+    <TextView
+        android:id="@+id/pageTxt"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:text="Pages:"
+        app:layout_constraintBottom_toBottomOf="@+id/bookCoverImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/authorTxt"
+        app:layout_constraintTop_toTopOf="@+id/bookCoverImg"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/addtofavBtn"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="addtofavoritesfx"
+        android:text="Add To Favorites"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookCoverImg" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:entries="@array/spinnerItems"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/addtofavBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/addtofavBtn"
+        app:layout_constraintTop_toTopOf="@+id/addtofavBtn" />
+
+    <TextView
+        android:id="@+id/DescTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addtofavBtn"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+    <TextView
+        android:id="@+id/descTitleTxt"
+        android:layout_width="355dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="10dp"
+        android:text="Description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/spinner"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/DescTitle"
+        app:layout_constraintTop_toBottomOf="@+id/DescTitle"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

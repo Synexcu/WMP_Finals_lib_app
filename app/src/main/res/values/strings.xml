@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">WMP Final Jonathan</string>
+
+    <string-array name="spinnerItems">
+        <item>-Book Status-</item>
+        <item>Currently Reading</item>
+        <item>Want to Read</item>
+        <item>Already Read</item>
+    </string-array>
+
+    <!--    <string-array name="bookval">-->
+    <!--        <item>1</item>-->
+    <!--        <item>1</item>-->
+    <!--        <item>1</item>-->
+    <!--        <item>1</item>-->
+    <!--        <item>1</item>-->
+    <!--    </string-array>-->
+
+    <string-array name="Title">
+        <item>An Old Man From the Countryside Becomes a Swords Saint: I Was Just a Rural Sword Teacher, but My Successful Students Would Not Leave Me Alone!</item>
+        <item>SPY×FAMILY</item>
+        <item>The Angel Next Door Spoils Me Rotten</item>
+        <item>The Eminence in Shadow</item>
+        <item>Summoned Japan</item>
+    </string-array>
+
+    <string-array name="altTitle">
+        <item>片田舎のおっさん、剣聖になる～ただの田舎の剣術師範だったのに、大成した弟子たちが俺を放ってくれない件～</item>
+        <item>SPY×FAMILY</item>
+        <item>お隣の天使様にいつの間にか駄目人間にされていた件</item>
+        <item>陰の実力者になりたくて！</item>
+        <item>日本国召喚</item>
+    </string-array>
+
+    <string-array name="shortDesc">
+        <item>An old humble swordsmaster who has retired and living leisurely in the countryside. His easy going life suddenly changes when his former students suddenly visits him and relayed the news about him.</item>
+        <item>A handsome gentleman, A Master of Disguise. The world\'s renowned spy codenamed (Twilight) takes an undercover mission to maintain world peace. Everything\'s according to his plan until the HQ ordered him to build a family for the mission?! </item>
+        <item>A beautiful girl whose classmates all call her an "angel" and an average guy and self-admitted slob. This is a story of the encounter of the 2, thus begins their strange relationship between this incredibly unlikely pair!</item>
+        <item>A story of someone who\'s always adored power. This is a story of how a normal person reincarnated to be the strongest, but he chooses to stay dark in the shadow to do his job. </item>
+        <item>This is a story of the country called Japan as it was engulfed in the chaotic storm of the world.</item>
+    </string-array>
+
+    <string-array name="Description">
+        <item>Beryl Gardernant is a humble sword master who runs a dojo in the Reveris Kingdom.\n \nHe had come to terms with the limits of his strength and was living a leisurely life in the countryside.\n \nHowever, his life changes drastically when Alexia, one of his former students, suddenly visits him and tells him that she has recommended Beryl to be a special instructor within the nation’s Knight Order.</item>
+        <item>The master spy codenamed (Twilight) has spent his days on undercover missions, all for the dream of a better world. But one day, he receives a particularly difficult new order from command. \n \nFor his mission, he must form a temporary family and start a new life?! \n \nA Spy/Action/Comedy about a one-of-a-kind family!</item>
+        <item>A HEAVENLY ENCOUNTER!\n \nMahiru is a beautiful girl whose classmates all call her an “angel.” Not only is she a star athlete with perfect grades—she’s also drop-dead gorgeous.\n \nAmane‚ an average guy and self-admitted slob‚ has never thought much of the divine beauty‚ despite attending the same school.\n \nEverything changes‚ however‚ when he happens to see Mahiru sitting alone in a park during a rainstorm. Thus begins the strange relationship between this incredibly unlikely pair!</item>
+        <item>Just like how everyone adored heroes in their childhood, a certain young man adored those powers hidden in shadows. Ninjas, rogues, shadowy mentor types, that sort of deal.\n \nAfter hiding his strength and living the mediocre life of a NPC by day while undergoing frenzied training by night, he finally reincarnates into a different world and gains ultimate power.\n \nThe young man who is only pretending to be a power in the shadows… his subordinates who took him more seriously than he expected… and a giant organization in the shadows that gets accidentally trampled….</item>
+        <item>In the Great Orient, lies the continent called Rodenius.\n\nOne day, an unidentified flying object arrived at Qua-Toyne Principality’s airspace. The unidentified flying object defied the Principality’s common sense. But that unidentified flying object was just a harbinger of something even more shocking.\n\nFar to the eastern sea, a group of islands suddenly appeared. The country of the islands called itself: Japan. According to them, their nation had been transported to another world. How will Japan interact with the native countries of this world? Will they greet her as a friend or as an enemy?</item>
+    </string-array>
+
+    <string-array name="Author">
+        <item>Shigeru Sagasaki, Kazuki Satou</item>
+        <item>Endou Tatsuya</item>
+        <item>Saekisan, Suzu Yuuki, Wan Shibata</item>
+        <item>Aizawa Daisuke, Sakano Anri</item>
+        <item>Minorou, Takano Chiharu</item>
+    </string-array>
+
+    <string-array name="pages">
+        <item>251 Pages</item>
+        <item>517 Pages</item>
+        <item>275 Pages</item>
+        <item>654 Pages</item>
+        <item>812 Pages</item>
+    </string-array>
+
+</resources>
